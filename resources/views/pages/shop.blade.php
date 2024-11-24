@@ -214,12 +214,12 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/boos1n.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/boos1n.webp') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
@@ -249,13 +249,13 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/boosnew2.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/boosnew2.webp') }}">
                                     <span class="label">Sale</span>
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">

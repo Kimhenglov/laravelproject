@@ -293,7 +293,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Diagonal Textured Cap</h6>
-                        <a href="shop-details.html" class="mercedessPic">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="mercedessPic">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -362,7 +362,7 @@
                             <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                         </ul>
                     </div>
-                    <div class="product__item__text">
+                    <div class="product__item__text">  ///////////////////////////////////////
                         <h6>Ankle Boots</h6>
                         <a href="#" class="add-cart">+ Add To Cart</a>
                         <div class="rating">

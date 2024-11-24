@@ -48,7 +48,10 @@
             <div class="col-lg-6 col-md-6">
 
 
-                @include('includes.index.nav')
+
+
+                @include('includes.shop.nav')
+
 
 
             </div>
