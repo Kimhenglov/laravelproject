@@ -34,7 +34,7 @@ Route::get('/contact',function (){
     return view('pages.contact');
 })->name('pages.contact');
 
-Route::get('/shop-detail',function (){
+Route::get('/shop-details',function (){
     return view('pages.shop-detail');
 })->name('pages.shop-detail');
 

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
-    @include('includes.product-detail.meta')
+    @include('includes.pages.product-detail.meta')
 
     <title>Male-Fashion | Template</title>
     <link
@@ -26,7 +26,7 @@
     />
 
     <!-- Css Styles -->
-    @include('includes.product-detail.style')
+    @include('includes.pages.product-detail.style')
 
     <style>
       .carousel-control-prev-icon,
@@ -78,7 +78,7 @@
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    @include('includes.product-detail.header')
+    @include('includes.pages.product-detail.header')
     <!-- Header Section End -->
 
     <!-- Shop Details Section Begin -->
@@ -89,7 +89,7 @@
     <!-- Related Section End -->
 
     <!-- Footer Section Begin -->
-    @include('includes.product-detail.footer')
+    @include('includes.pages.product-detail.footer')
 
     <!-- Footer Section End -->
 
@@ -105,7 +105,7 @@
     <!-- Search End -->
 
     <!-- Js Plugins -->
-    @include('includes.product-detail.script')
+    @include('includes.pages.product-detail.script')
 
   </body>
 </html>

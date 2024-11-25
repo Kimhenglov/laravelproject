@@ -189,7 +189,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Cotton-jersey T-shirt with rubber-print logo</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -224,7 +224,7 @@
                     <div class="product__item__text">
                         <h6>Boss
                             Logo Embroidered Linen White Shirt</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -259,7 +259,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Multi-pocket Chest Bag</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="product__item__text">
                         <!-- <h6>Lether Backpack</h6> -->
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -364,7 +364,7 @@
                     </div>
                     <div class="product__item__text">  ///////////////////////////////////////
                         <h6>Ankle Boots</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -398,7 +398,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>T-shirt Contrast Pocket</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -432,7 +432,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Basic Flowing Scarf</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -468,7 +468,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Basic Flowing Scarf</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -504,7 +504,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Basic Flowing Scarf</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -540,7 +540,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Basic Flowing Scarf</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -577,7 +577,7 @@
                     <div class="product__item__text">
                         <h6>AMG Petronas
                             William Racing F1 Black T-Shirt</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -648,7 +648,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Christian Dior Atelier' Print Black T-Shirt</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -684,7 +684,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Christian Dior Atelier' Print Black T-Shirt</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
@@ -720,7 +720,7 @@
                     </div>
                     <div class="product__item__text">
                         <h6>Christian Dior Atelier' Print Black T-Shirt</h6>
-                        <a href="#" class="add-cart">+ Add To Cart</a>
+                        <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                         <div class="rating">
                             <i class="fa fa-star-o"></i>
                             <i class="fa fa-star-o"></i>
