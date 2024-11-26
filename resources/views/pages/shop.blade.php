@@ -10,7 +10,7 @@
                     <div class="breadcrumb__text">
                         <h4>Shop</h4>
                         <div class="breadcrumb__links">
-                            <a href="{{ url('./index') }}">Home</a>
+                            <a href="{{ route('pages.home') }}">Home</a>
                             <span>Shop</span>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Piqué Biker Jacket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Multi-pocket Chest Bag</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -285,17 +285,17 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/newHogu.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/newHogu.webp') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Diagonal Textured Cap</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -324,17 +324,17 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-6 ">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/boosShark.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/boosShark.webp') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Diagonal Textured Cap</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -359,18 +359,18 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item sale">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/versacetshirt.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/versacetshirt.webp') }}">
                                     <span class="label">Sale</span>
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Ankle Boots</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -395,17 +395,17 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/smallbag.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/smallbag.webp') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>T-shirt Contrast Pocket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -430,17 +430,17 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/newfandi.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/newfandi.jpg') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Basic Flowing Scarf</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -466,17 +466,17 @@
 
                         <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/bessshoes.webp">
+                                <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/bessshoes.webp') }}">
                                     <ul class="product__hover">
-                                        <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                        <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                         </li>
-                                        <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                        <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Piqué Biker Jacket</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -512,7 +512,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Multi-pocket Chest Bag</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -584,7 +584,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Multi-pocket Chest Bag</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -619,7 +619,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Diagonal Textured Cap</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star-o"></i>
                                         <i class="fa fa-star-o"></i>
@@ -655,7 +655,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Ankle Boots</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -691,7 +691,7 @@
                                 </div>
                                 <div class="product__item__text">
                                     <h6>Ankle Boots</h6>
-                                    <a href="#" class="add-cart">+ Add To Cart</a>
+                                    <a href="{{ url('/shop-details') }}" class="add-cart">+ Add To Cart</a>
                                     <div class="rating">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>

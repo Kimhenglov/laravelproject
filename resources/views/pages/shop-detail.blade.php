@@ -9,8 +9,8 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="product__details__breadcrumb">
-              <a href="./index.html">Home</a>
-              <a href="./shop.html">Shop</a>
+              <a href="{{ route('pages.home') }}">Home</a>
+              <a href="{{ route('pages.shop') }}">Shop</a>
               <span>Product Details</span>
             </div>
           </div>
@@ -27,7 +27,7 @@
                 >
                   <div
                     class="product__thumb__pic set-bg"
-                    data-setbg="img/product/avMercedes.webp"
+                    data-setbg="{{ asset('theme/img/product/avMercedes.webp') }}"
                   ></div>
                 </a>
               </li>
@@ -40,7 +40,7 @@
                 >
                   <div
                     class="product__thumb__pic set-bg"
-                    data-setbg="img/product/avSecond.webp"
+                    data-setbg="{{ asset('theme/img/product/avSecond.webp') }}"
                   ></div>
                 </a>
               </li>
@@ -53,7 +53,7 @@
                 >
                   <div
                     class="product__thumb__pic set-bg"
-                    data-setbg="img/product/Third.webp"
+                    data-setbg="{{ asset('theme/img/product/Third.webp') }}"
                   ></div>
                 </a>
               </li>
@@ -75,7 +75,7 @@
                 style="margin-left: 30px"
               >
                 <div class="product__details__pic__item">
-                  <img src="img/product/avMercedes.webp" alt="" />
+                  <img src="{{ asset('theme/img/product/avMercedes.webp') }}" alt="" />
                 </div>
               </div>
               <div
@@ -85,7 +85,7 @@
                 style="margin-left: 30px"
               >
                 <div class="product__details__pic__item">
-                  <img src="img/product/avSecond.webp" alt="" />
+                  <img src="{{ asset('theme/img/product/avSecond.webp') }}" alt="" />
                 </div>
               </div>
               <div
@@ -95,12 +95,12 @@
                 style="margin-left: 30px"
               >
                 <div class="product__details__pic__item">
-                  <img src="img/product/Third.webp" alt="" />
+                  <img src="{{ asset('theme/img/product/Third.webp') }}" alt="" />
                 </div>
               </div>
               <div class="tab-pane" id="tabs-4" role="tabpanel">
                 <div class="product__details__pic__item">
-                  <img src="img/shop-details/product-big-4.png" alt="" />
+                  <img src="{{ asset('theme/img/shop-details/product-big-4.png') }}" alt="" />
                   <a
                     href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1"
                     class="video-popup"
@@ -177,7 +177,7 @@
               >
               <div class="d-flex flex-column">
                 <div class="product__details__last__option mt-4">
-                  <img src="img/shop-details/details-payment.png" alt="" />
+                  <img src="{{ asset('theme/img/shop-details/details-payment.png') }}" alt="" />
                   <ul>
                     <li><span>SKU:</span> 3812912</li>
                     <li><span>Categories:</span> Clothes</li>
@@ -232,7 +232,7 @@
                                   <td class="product__cart__item">
                                     <div class="product__cart__item__pic">
                                       <img
-                                        src="img/product/avMercedes.webp"
+                                        src="{{ asset('theme/img/product/avMercedes.webp') }}"
                                         alt=""
                                         style="width: 130px; height: 210px"
                                       />
@@ -287,7 +287,7 @@
                                   <td class="product__cart__item">
                                     <div class="product__cart__item__pic">
                                       <img
-                                        src="img/product/newWh.webp"
+                                        src="{{ asset('theme/img/product/newWh.webp') }}"
                                         alt=""
                                         style="width: 120px; height: 180px"
                                       />
@@ -326,14 +326,14 @@
                           <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                               <div class="continue__btn update__btn">
-                                <a href="shopping-cart.html"
+                                <a href="{{ route('pages.shop-detail') }}"
                                   ><i class="fa fa-spinner"></i> Check Out</a
                                 >
                               </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                               <div class="continue__btn update__btn">
-                                <a href="shopping-cart.html"
+                                <a href="{{ route('pages.shop-detail') }}"
                                   ><i class="fa fa-spinner"></i> View Card</a
                                 >
                               </div>

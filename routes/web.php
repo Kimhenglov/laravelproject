@@ -42,6 +42,10 @@ Route::get('/shopcart',function (){
     return view('pages.shopping-cart');
 })->name('pages.shopping-cart');
 
+Route::get('/checkout',function (){
+    return view('pages.checkout');
+})->name('pages.checkout');
+
 
 
 
