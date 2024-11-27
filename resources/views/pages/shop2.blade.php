@@ -9,7 +9,7 @@
                 <div class="breadcrumb__text">
                     <h4>Shop</h4>
                     <div class="breadcrumb__links">
-                        <a href="{{ url('./index') }}">Home</a>
+                        <a href="{{ route('pages.home') }}">Home</a>
                         <span>Shop</span>
                     </div>
                 </div>
@@ -384,12 +384,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="img/product/boos1n.webp">
+                            <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/boos1n.webp') }}">
                                 <ul class="product__hover">
-                                    <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                     </li>
-                                    <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                 </ul>
                             </div>
                             <div class="product__item__text">
@@ -419,18 +419,18 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="product__item sale">
-                            <div class="product__item__pic set-bg" data-setbg="img/product/boosnew2.webp">
+                            <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/boosnew2.webp') }}">
                                 <span class="label">Sale</span>
                                 <ul class="product__hover">
-                                    <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                     </li>
-                                    <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                 </ul>
                             </div>
                             <div class="product__item__text">
                                 <h6>Multi-pocket Chest Bag</h6>
-                                <a href="#" class="add-cart">+ Add To Cart</a>
+                                <a href="{{ route('pages.shopping-cart') }}" class="add-cart">+ Add To Cart</a>
                                 <div class="rating">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -455,12 +455,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="product__item">
-                            <div class="product__item__pic set-bg" data-setbg="img/product/newHogu.webp">
+                            <div class="product__item__pic set-bg" data-setbg="{{ asset('theme/img/product/newHogu.webp') }}">
                                 <ul class="product__hover">
-                                    <li><a href="#"><img src="img/icon/heart.png" alt=""></a></li>
-                                    <li><a href="#"><img src="img/icon/compare.png" alt=""> <span>Compare</span></a>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/heart.png') }}" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/compare.png') }}" alt=""> <span>Compare</span></a>
                                     </li>
-                                    <li><a href="#"><img src="img/icon/search.png" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('theme/img/icon/search.png') }}" alt=""></a></li>
                                 </ul>
                             </div>
                             <div class="product__item__text">
@@ -958,11 +958,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="product__pagination">
-                            <a class="" href="shop.html">1</a>
+                            <a class="" href="{{ url('./shop') }}">1</a>
                             <a class="active" href="#">2</a>
-                            <a href="#">3</a>
+                            {{-- <a href="#">3</a>
                             <span>...</span>
-                            <a href="#">21</a>
+                            <a href="#">21</a> --}}
                         </div>
                     </div>
                 </div>

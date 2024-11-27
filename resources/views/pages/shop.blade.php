@@ -756,9 +756,9 @@
                             <div class="product__pagination">
                                 <a class="active" href="#">1</a>
                                 <a href="{{ url('./shop2') }}">2</a>
-                                <a href="#">3</a>
+                                {{-- <a href="#">3</a>
                                 <span>...</span>
-                                <a href="#">21</a>
+                                <a href="#">21</a> --}}
                             </div>
                         </div>
                     </div>

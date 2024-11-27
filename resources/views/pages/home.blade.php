@@ -779,7 +779,7 @@
                     </div>
                 </div> -->
                 <div class="banner__item__pic">
-                    <img src="img/product/col-md-6.webp" alt="">
+                    <img src="{{ asset('theme/img/product/col-md-6.webp') }}" alt="">
                 </div>
 
             </div>
@@ -787,25 +787,25 @@
                    <div class="row mt-5 ">
                          <div class="col-md-3 " style="margin-left: 140px;">
                             <div class="banner__item__pic ms-5">
-                                <img src="img/product/VersaceBanner.webp" alt="">
+                                <img src="{{ asset('theme/mg/product/VersaceBanner.webp') }}i" alt="">
                             </div>
                             <P >Versace Jeans Couture SS24
                                 Leaning into the Y2K aesthetic, the collection is punctuated with graphic patchwork
                                 prints in precise cuts, and tailored denim pieces that draw
                                  inspiration from archival ready-to-wear.</P>
 
-                                 <a href="shop.html" class="primary-btn">Shop now</a>
+                                 <a href="{{ route('pages.shop') }}" class="primary-btn">Shop now</a>
                          </div>
 
 
                          <div class="col-md-3" style="margin-left: 140px;">
                             <div class="banner__item__pic" >
-                                <img src="img/product/BannerLV.jpg" alt="" >
+                                <img src="{{ asset('theme/img/product/BannerLV.jpg') }}" alt="" >
                             </div>
                             <P >LOUIS VUITTON BRACELETS
                                 Louis Vuitton’s fine jewelry bracelets for women highlight the wrist with their
                                 radiant sparkle. The selection embraces cuffs, bangles and chains set with the Maison's most iconic motifs</P>
-                                <a href="shop.html" class="primary-btn">Shop now</a>
+                                <a href="{{ route('pages.shop') }}" class="primary-btn">Shop now</a>
                          </div>
 
                    </div>
@@ -952,7 +952,7 @@
                                         <div class="carousel carousel-primary">
                                             <img src="{{ asset('/theme/img/product/images.png') }}" alt="" class="img-fluid" style="width: 300px;height: 200px;">
                                             <img src="{{ asset('/theme/img/product/images (1).png') }}" alt="" class="img-fluid" style="width: 300px;height: 200px;">
-                                            <img src="{{ asset('/theme/img/ ') }}" alt="" class="img-fluid" style="width: 300px;height: 200px;">
+                                            <img src="{{ asset('/theme/img/Louis-Vuitton-Logo.png') }}" alt="" class="img-fluid" style="width: 300px;height: 200px;">
 
 
                                         </div>

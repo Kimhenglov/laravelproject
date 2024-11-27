@@ -326,14 +326,14 @@
                           <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                               <div class="continue__btn update__btn">
-                                <a href="{{ route('pages.shop-detail') }}"
+                                <a href="{{ route('pages.checkout') }}"
                                   ><i class="fa fa-spinner"></i> Check Out</a
                                 >
                               </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                               <div class="continue__btn update__btn">
-                                <a href="{{ route('pages.shop-detail') }}"
+                                <a href="{{ route('pages.product-detail') }}"
                                   ><i class="fa fa-spinner"></i> View Card</a
                                 >
                               </div>
@@ -879,31 +879,31 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/mercedeshat.jpg"
+                    data-setbg="{{ asset('/theme/img/product/mercedeshat.jpg') }}"
                   >
                     <span class="label">New</span>
                     <ul class="product__hover">
                       <li>
                         <a href="#"
-                          ><img src="img/icon/heart.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/heart.png') }}" alt=""
                         /></a>
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/compare.png" alt="" />
+                          ><img src="{{ asset('/theme/img/icon/compare.png') }}" alt="" />
                           <span>Compare</span></a
                         >
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/search.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/search.png') }}" alt=""
                         /></a>
                       </li>
                     </ul>
                   </div>
                   <div class="product__item__text">
                     <h6>Piqué Biker Jacket</h6>
-                    <a href="#" class="add-cart">+ Add To Cart</a>
+                    <a href="{{ route('pages.shopping-cart') }}" class="add-cart">+ Add To Cart</a>
                     <div class="rating">
                       <i class="fa fa-star-o"></i>
                       <i class="fa fa-star-o"></i>
@@ -930,23 +930,23 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/essensaialtshirt.webp"
+                    data-setbg="{{ asset('/theme/img/product/essensaialtshirt.webp') }}"
                   >
                     <ul class="product__hover">
                       <li>
                         <a href="#"
-                          ><img src="img/icon/heart.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/heart.png') }}" alt=""
                         /></a>
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/compare.png" alt="" />
+                          ><img src="{{ asset('/theme/img/icon/compare.png') }}" alt="" />
                           <span>Compare</span></a
                         >
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/search.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/search.png') }}" alt=""
                         /></a>
                       </li>
                     </ul>
@@ -980,24 +980,24 @@
                 <div class="product__item sale">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-3.jpg"
+                    data-setbg="{{ asset('/theme/img/product/product-3.jpg') }}"
                   >
                     <span class="label">Sale</span>
                     <ul class="product__hover">
                       <li>
                         <a href="#"
-                          ><img src="img/icon/heart.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/heart.png') }}" alt=""
                         /></a>
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/compare.png" alt="" />
+                          ><img src="{{ asset('/theme/img/icon/compare.png') }}" alt="" />
                           <span>Compare</span></a
                         >
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/search.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/search.png') }}" alt=""
                         /></a>
                       </li>
                     </ul>
@@ -1031,23 +1031,23 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-4.jpg"
+                    data-setbg="{{ asset('/theme/img/product/product-4.jpg') }}"
                   >
                     <ul class="product__hover">
                       <li>
                         <a href="#"
-                          ><img src="img/icon/heart.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/heart.png') }}" alt=""
                         /></a>
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/compare.png" alt="" />
+                          ><img src="{{ asset('/theme/img/icon/compare.png') }}" alt="" />
                           <span>Compare</span></a
                         >
                       </li>
                       <li>
                         <a href="#"
-                          ><img src="img/icon/search.png" alt=""
+                          ><img src="{{ asset('/theme/img/icon/search.png') }}" alt=""
                         /></a>
                       </li>
                     </ul>

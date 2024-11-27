@@ -38,6 +38,10 @@ Route::get('/shop-details',function (){
     return view('pages.shop-detail');
 })->name('pages.shop-detail');
 
+Route::get('/product-details',function (){
+    return view('pages.product-detail');
+})->name('pages.product-detail');
+
 Route::get('/shopcart',function (){
     return view('pages.shopping-cart');
 })->name('pages.shopping-cart');

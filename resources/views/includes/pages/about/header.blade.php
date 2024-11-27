@@ -42,7 +42,9 @@
         <div class="row">
             <div class="col-lg-3 col-md-3">
                 <div class="header__logo">
-                   <h4>Brand Khmer Suplies</h4>
+                    <a href="{{ route('pages.home') }}">
+                        <img src="{{ asset('theme/img/brandKHR.png') }}" alt="" class="navbar-logo">
+                    </a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
