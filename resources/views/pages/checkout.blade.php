@@ -116,7 +116,7 @@
                                 <li>01. Vanilla salted caramel <span>$ 300.0</span></li>
                                 <li>02. German chocolate <span>$ 170.0</span></li>
                                 <li>03. Sweet autumn <span>$ 170.0</span></li>
-                                <li>04. Cluten free mini dozen <span>$ 110.0</span></li>
+                                <li>04. Gluten-free mini dozen <span>$ 110.0</span></li>
                             </ul>
                             <ul class="checkout__total__all">
                                 <li>Subtotal <span>$750.99</span></li>
@@ -129,8 +129,7 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="checkout__input__checkbox">
                                 <label for="payment">
                                     Check Payment
@@ -145,8 +144,33 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
-                            <button type="submit" class="site-btn">PLACE ORDER</button>
+
+                            <form id="checkoutForm" action="/submit-order" method="POST">
+                                @csrf <!-- Include CSRF token for Laravel -->
+                                <button type="submit" class="site-btn">PLACE ORDER</button>
+                            </form>
+
+                            <script>
+                                // Event listener for form submission
+                                document.getElementById('checkoutForm').addEventListener('submit', function (event) {
+                                    event.preventDefault(); // Prevent the default form submission
+                                    const form = this; // Store reference to the form
+
+                                    Swal.fire({
+                                        title: 'Order Confirmed!',
+                                        text: 'Thank you for your order. Your order has been placed successfully.',
+                                        icon: 'success',
+                                        confirmButtonText: 'OK'
+                                    }).then((result) => {
+                                        if (result.isConfirmed) {
+                                            // Submit the form after the user confirms the SweetAlert
+                                            form.submit();
+                                        }
+                                    });
+                                });
+                            </script>
                         </div>
+
                     </div>
                 </div>
             </form>

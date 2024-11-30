@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\OrderController;
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -50,6 +52,17 @@ Route::get('/checkout',function (){
     return view('pages.checkout');
 })->name('pages.checkout');
 
+
+Route::get('/success-pm', function () {
+    return view('pages.order-success');
+})->name('pages.order.success');
+
+Route::get('/fail-pm', function () {
+    return view('pages.order-fail');
+})->name('pages.order-fail');
+
+
+Route::post('/submit-order', [OrderController::class, 'store'])->name('submit.order');
 
 
 

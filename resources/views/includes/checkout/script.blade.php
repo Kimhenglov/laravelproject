@@ -8,3 +8,5 @@
     <script src="{{ asset('/theme/js/mixitup.min.js') }}"></script>
     <script src="{{ asset('/theme/js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('/theme/js/main.js') }}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
